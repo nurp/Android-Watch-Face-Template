@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\nurpinar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\pre-dexed\release\support-annotations-22.0.0-b088578e195d70af0990996a9a8f489979a691d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\pre-dexed\release\classes-c3692b8c7f175555da5af32d10ac15733c8b9fd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\pre-dexed\release\internal_impl-22.0.0-f5185c7abec1f1aeb18947cd966fa3ea5bc1e837.jar" />
+    </item>
+    <item
+        jar="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\pre-dexed\release\classes-81aa380976158245fcae219270a5f4be650a7dbd.jar" />
+    </item>
+    <item
+        jar="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\exploded-aar\com.google.android.support\wearable\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
+        <dex dex="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\pre-dexed\release\classes-2f14ef0c8ba869681fcb1f69476a9f57b63db89c.jar" />
+    </item>
+    <item
+        jar="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\pre-dexed\release\classes-ce5f315b140cc7984d377bb69b7d85f87f9c5cd9.jar" />
+    </item>
+    <item
+        jar="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\nurpinar\AndroidStudioProjects\MyWatchFace\wear\build\intermediates\pre-dexed\release\classes-30bbf33bbb993e94c966552f41f28ad7c61f094f.jar" />
+    </item>
+
+</items>

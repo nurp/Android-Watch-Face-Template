@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.swarmnyc.watchfaces" >
+    package="com.nurpinar.mywatchface" >
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="21" />
 
     <!-- Permissions required by the wearable app -->
     <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
-        <service android:name=".WeatherService" >
-            <intent-filter>
-                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
-            </intent-filter>
-        </service>
-
         <activity
-            android:name=".WeatherWatchFaceConfigActivity"
-            android:label="@string/title_activity_weather_watch_face_config"
-            android:theme="@style/ConfigTheme">
+            android:name=".ExchangeWatchFaceCompanionConfigActivity"
+            android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="com.swarmnyc.watchfaces.CONFIG_RUNNER" />
-                <category android:name="com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="com.swarmnyc.watchfaces.CONFIG_SLIM" />
+                <action android:name="com.nurpinar.watchface.CONFIG_DIGITAL" />
+
                 <category android:name="com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
-        <meta-data android:name="roboguice.annotations.packages" android:value="com.swarmnyc.watchfaces" />
-        <meta-data android:name="roboguice.modules" android:value="com.swarmnyc.watchfaces.AppModule" />
+
+        <service android:name=".UpdateService" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
     </application>
+
 </manifest>
